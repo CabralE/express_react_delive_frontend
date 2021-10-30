@@ -10,6 +10,10 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 
 function App() {
+    // URL should have YOUR HEROKU URL for your backend, make sure you include the trailing slash
+
+  const URL = "http://localhost:4000/";
+
   return (
     <div className="App">
       <Header />
